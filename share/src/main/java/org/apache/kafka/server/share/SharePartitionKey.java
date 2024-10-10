@@ -45,6 +45,8 @@ public class SharePartitionKey {
         this(groupId, new TopicIdPartition(Objects.requireNonNull(topicId), new TopicPartition(topic, partition)));
     }
 
+
+
     public String groupId() {
         return groupId;
     }
